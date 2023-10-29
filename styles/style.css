@@ -1,0 +1,17 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    width: 600px;
+    padding: 0 20px 20px 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
