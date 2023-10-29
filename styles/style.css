@@ -7,11 +7,16 @@ body{
     color: #ffffff;
 }
 
-#site-title {
-    font-family: 'Fira Code', monospace;
-    padding: 20px 0;
-    color: #203fb6;
-    text-align: center;
+img {
+    display: block;
+    margin: 10px;
+}
+#shadow{
+    transition: 0.3s;
+}
+
+#shadow:hover{
+    padding: 5px;
 }
 
 .Title{
@@ -21,52 +26,45 @@ body{
     align-items: center;
 }
 
+#site-title {
+    font-family: 'Fira Code', monospace;
+    padding: 20px 0;
+    color: #ec1a1a;
+    text-align: center;
+}
+
 .items{
-    display: flex;
-    text-align: left;
-    /* margin-top: 30px; */
-    margin-bottom: 0px;
-    padding: 10px;
+    color: #ffffff;
+    padding: 5px;
     width: 50%;
     transition: 0.5s;
 }
 
-
-/* Mozilla */
-
-.mozilla:hover {
-    color: #ffeca4;
-    background: #ff6611;
-    border-radius: 15px 15px 0 0;
+.items:hover{
+    color: #000000;
+    background-color: #f5f5f5;
 }
 
-#manifesto:hover {
-    color: #ffeca4;
-    background: #203fb6;
-    border-radius: 5px;
+.items a:hover{
+    color: #000000;
+    background-color: #ec1a1a;
+    /* border-radius: 3px 0 0 3px; */
+    padding: 5px;
+}
+.items a{
+    color: #ff0000;
+    transition: 0.2s;
 }
 
-/* Github */
-
-.github-item:hover{
-    color: #FFFFFF;
-    background: #773FC7;
+.music-container{
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
 
-
-.button{
-    color: #FFFFFF;
-    /* background: #FFFFFF; */
-    border-radius: 5px;
-    width: 200px;
-}
-
-#button:hover{
-    color: #773FC7;
-    background: #FFFFFF;
-}
-
-img {
-    display: block;
-    margin: 10px 10px;
+.music-link{
+    height: 100px;
+    width: 100px;
 }
