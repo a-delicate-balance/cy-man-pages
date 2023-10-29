@@ -1,17 +1,72 @@
 body{
     font-family: 'Fira Sans', sans-serif;
-    width: 600px;
+    margin: 0 auto;
+    /* width: 600px; */
     padding: 0 20px 20px 20px;
+    background-color: black;
+    color: white;
 }
 
-h1 {
-    margin: 0;
+#site-title {
+    font-family: 'Fira Code', monospace;
     padding: 20px 0;
-    color: #00539f;
+    color: #203fb6;
     text-align: center;
+}
+
+.Title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    text-align: left;
+    /* margin-top: 30px; */
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 50%;
+    transition: 0.5s;
+}
+
+
+/* Mozilla */
+
+.mozilla:hover {
+    color: #ffeca4;
+    background: #ff6611;
+    border-radius: 15px 15px 0 0;
+}
+
+#manifesto:hover {
+    color: #ffeca4;
+    background: #203fb6;
+    border-radius: 5px;
+}
+
+/* Github */
+
+.github-item:hover{
+    color: #FFFFFF;
+    background: #773FC7;
+}
+
+
+.button{
+    color: #FFFFFF;
+    /* background: #FFFFFF; */
+    border-radius: 5px;
+    width: 200px;
+}
+
+#button:hover{
+    color: #773FC7;
+    background: #FFFFFF;
 }
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 10px 10px;
 }
